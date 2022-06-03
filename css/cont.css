@@ -1,0 +1,488 @@
+* {
+	margin: 0px;
+	font-family: Montserrat;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	color: #3088e3;
+}
+hr {
+	background-color: #3088e3;
+	height: 1px;
+	border-style: none;
+}
+.hr {
+	height: 2px;
+}
+.info a {
+	text-decoration: none;
+	color: white;
+	position: relative;	
+}
+.info a::before {
+	content: "";
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: white;
+	transition: 0.5s;
+	transform: scaleX(0);	
+} 
+.info a:hover:before{
+	width: 100%;
+	transform: scaleX(1);
+
+}
+.shapka {
+	background-color: rgba(0, 0, 0, .3);
+	padding-top: 5px;
+	display: flex;
+	width: 100%;
+	height: 50px;
+	/*justify-content: space-between;*/
+	margin-bottom: 15px;
+	z-index: 10000;
+	position: fixed;
+	
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+}
+.logo img {
+	margin-right:20px;
+	width: 150px;
+	height: 75px;
+}
+.info {
+	margin-left: 415px;
+	align-items: center;
+	width: 300px;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+.ruzkaz {
+	margin-left: 550px;
+	margin-top: 3px;
+	width: 40px;
+	height: 40px;
+}
+.ruzkaz img {
+	width: 40px;
+	height: 40px;
+}
+
+
+
+
+
+
+
+
+
+main {
+	/*width: 100%;
+	height: 2500px;*/
+	
+}
+.intro {
+	max-height: 100vh;
+	overflow: hidden;
+	position: relative;
+	
+
+}
+.intro:after {
+	content: "";
+	display: block;
+	background-color: rgba(0, 0, 0, .5);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.video {
+	position: relative;
+	padding-bottom: 56.25%;
+	z-index: 1;
+}
+.video_media {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	top: 0;
+	left: 0;
+}
+.intro_content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 4;
+}
+.intro_title {
+	font-family: Roboto;
+	margin: 0;
+	font-size: 35px;
+	color: #fff;
+	text-align: center;
+
+}
+.container p  {
+	font-size: 18px;
+	text-align: center;
+	color: white;
+	font-family: Roboto;
+}
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+
+}
+
+/*основная часть сайта*/
+
+.bigtext {
+	width: 100%;
+	height: 400px;
+	background-color: #F6F6F6;
+	display: flex;
+	justify-content: center;
+}
+.tx {
+	width: 1000px;
+	height: 400px;
+}
+.tx h1 {
+	color: #3088e3;
+	margin-top: 15px;
+	font-family: Playfair Display;
+}
+.tx p {
+	font-size: 18px;
+	font-family: 
+}
+
+
+
+
+
+
+
+
+
+.bigcont {
+	margin-top: 50px;
+	width: 100%;
+	height: 4000px;
+	display: flex;
+	flex-direction: column;
+	
+}
+.cont1 {
+	display: flex;
+	width: 100%;
+	height: 500px;
+	justify-content: space-around;
+}
+.podbox1 {
+	width: 400px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	
+}
+.photo1 {
+	width: 400px;
+	height: 265px;
+	background-image: url(../logo/5e5284e4b1f83.jpg);
+	background-size: 100%;
+	border-radius: 25px;
+}
+.text1 h1 {
+	text-align: center;
+}
+.text1 p {
+	text-align: center;
+}
+
+
+
+
+
+.podbox2 {
+	width: 400px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	
+}
+	.photo2 {
+		width: 400px;
+		height: 265px;
+		background-image: url(../logo/304-44-1.jpg);
+		background-size: 100%;
+		border-radius: 25px;
+	}
+	
+	.text2 h1 {
+		text-align: center;
+	}
+	.text2 p {
+		text-align: center;
+	}
+
+
+
+
+
+.podbox3 {
+	width:400px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+}
+	.photo3 {
+		width: 400px;
+		height: 265px;
+		background-image: url(../logo/5e6d5b3e-7934-11eb-bda7-baa2e45fb9df.webp);
+		background-size: 100%;
+		border-radius: 25px;
+	}
+	
+	.text3 h1 {
+		text-align: center;
+	}
+	.text3 p {
+		text-align: center;
+	}
+
+
+
+.cont2 {
+	display: flex;
+	width: 100%;
+	height: 500px;
+	justify-content: space-around;
+}
+.photo4 {
+	width: 400px;
+	height: 265px;
+	background-size: 100%;
+	border-radius: 25px;
+	background-image: url(../logo/1618792044_24-funart_pro-p-obedinyonnie-arabskie-emirati-dostoprimech-24.jpg);
+}
+.photo5 {
+	width: 400px;
+	height: 265px;
+	background-size: 100%;
+	border-radius: 25px;
+	background-image: url(../logo/scale_1200.jpg);
+}
+.photo6 {
+	width: 400px;
+	height: 265px;
+	background-size: 100%;
+	border-radius: 25px;
+	background-image: url(../logo/c1821216678fb23b894cd27d41d6b7c0.jpg);
+}
+
+
+
+.cont3 {
+	display: flex;
+	width: 100%;
+	height: 500px;
+	justify-content: space-around;
+}
+.photo7 {
+	width: 400px;
+	height: 265px;
+	background-size: 100%;
+	border-radius: 25px;
+	background-image: url(../logo/DSC_8331_2_3_tonemapped.jpg);
+}
+.photo8 {
+	width: 400px;
+	height: 265px;
+	background-size: 100%;
+	border-radius: 25px;
+	background-image: url(../logo/photo-1543429776-2782fc8e1acd.jpg);
+}
+.photo9 {
+	width: 400px;
+	height: 265px;
+	background-size: 100%;
+	border-radius: 25px;
+	background-image: url(../logo/bangkok-2.jpg);
+}
+
+
+.cont4 {
+	display: flex;
+	width: 100%;
+	height: 500px;
+	justify-content: space-around;
+}
+
+.photo10 {
+	width: 400px;
+	height: 265px;
+	background-size: 100%;
+	border-radius: 25px;
+	background-image: url(../logo/mexico.jpg);
+}
+.photo11 {
+	width: 400px;
+	height: 265px;
+	background-size: 100%;
+	border-radius: 25px;
+	background-image: url(../logo/chto-sleduet-uvidet-v-germanii-1.jpg);
+}
+.photo12 {
+	width: 400px;
+	height: 265px;
+	background-size: 100%;
+	border-radius: 25px;
+	background-image: url(../logo/655216_london_gorod_stolitsa-soedinnnogo-korolevstva-veli_1884x1255_www.Gde-Fon.com.jpg);
+}
+
+
+.cont5 {
+	display: flex;
+	width: 100%;
+	height: 500px;
+	justify-content: space-around;
+}
+
+
+.photo13 {
+	width: 400px;
+	height: 265px;
+	background-size: 100%;
+	border-radius: 25px;
+	background-image: url(../logo/1576838763_48-84.jpg);
+}
+.photo14 {
+	width: 400px;
+	height: 265px;
+	background-size: 100%;
+	border-radius: 25px;
+	background-image: url(../logo/bdc4bae8bf45a9611bf11bad5831e6d2.jpg);
+}
+.photo15 {
+	width: 400px;
+	height: 265px;
+	background-size: 100%;
+	border-radius: 25px;
+	background-image: url(../logo/ce932466-lm-170993-16dd8df449e.jpg);
+}
+
+
+
+
+
+.cont6 {
+	display: flex;
+	width: 100%;
+	height: 500px;
+	justify-content: space-around;
+}
+.photo16 {
+	width: 400px;
+	height: 265px;
+	background-size: 100%;
+	border-radius: 25px;
+	background-image: url(../logo/kuala-lumpur-7-1.jpg);
+}
+.photo17 {
+	width: 400px;
+	height: 265px;
+	background-size: 100%;
+	border-radius: 25px;
+	background-image: url(../logo/1582030985_moscow_vsthemes_ru-32.jpg);
+}
+.photo18 {
+	width: 400px;
+	height: 265px;
+	background-size: 100%;
+	border-radius: 25px;
+	background-image: url(../logo/1476173007-rivers-canada-houses-439957.jpg);
+}
+
+.cont7 {
+	display: flex;
+	width: 100%;
+	height: 500px;
+	justify-content: space-around;
+}
+
+.photo19 {
+	width: 400px;
+	height: 265px;
+	background-size: 100%;
+	border-radius: 25px;
+	background-image: url(../logo/82ff2f6813ea3e7893d99d2be6c5c7f7.jpg);
+}
+.photo20 {
+	width: 400px;
+	height: 265px;
+	background-size: 100%;
+	border-radius: 25px;
+	background-image: url(../logo/747953.jpg);
+}
+.photo21 {
+	width: 400px;
+	height: 265px;
+	background-size: 100%;
+	border-radius: 25px;
+	background-image: url(../logo/D5oR-TnWwAALwc-.jpg_large);
+}
+
+
+
+footer {
+	display: flex;
+	width: 100%;
+	height: 300px;
+	background-color: #EAEAE8;
+	border-top-color: #3088e3;
+	border-top-style: solid;
+
+	
+	
+}
+.footer1 {
+	margin-left: 200px;
+	width: 500px;
+	height: 250px;
+	
+}
+.footer2 {
+	margin-left: 50px;
+	width: 200px;
+	height: 250px;
+	
+}
+.footer3 {
+	margin-left: 10px;
+	width: 400px;
+	height: 250px;
+	padding-top: 30px;
+	
+}

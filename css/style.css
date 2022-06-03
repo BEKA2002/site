@@ -1,0 +1,445 @@
+* {
+	margin: 0px;
+	font-family: Montserrat;
+}
+
+.info a {
+	text-decoration: none;
+	color: white;
+	position: relative;	
+}
+.info a::before {
+	content: "";
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: white;
+	transition: 0.5s;
+	transform: scaleX(0);	
+} 
+.info a:hover:before{
+	width: 100%;
+	transform: scaleX(1);
+
+}
+.shapka {
+	background-color: rgba(0, 0, 0, .3);
+	padding-top: 5px;
+	display: flex;
+	width: 100%;
+	height: 50px;
+	/*justify-content: space-around;*/
+	margin-bottom: 15px;
+	z-index: 10000;
+	position: fixed;
+	
+}
+.logo {
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+}
+.logo img {
+	margin-right:20px;
+	width: 150px;
+	height: 75px;
+}
+.info {
+	margin-left: 415px;
+	align-items: center;
+	width: 300px;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+.ruzkaz {
+	margin-left: 550px;
+	margin-top: 3px;
+	width: 40px;
+	height: 40px;
+}
+.ruzkaz img{
+	width: 40px;
+	height: 40px;
+}
+
+.glava1 {
+	width: 100%;
+	height: 700px;
+	background-image: url("http://mobimg.b-cdn.net/v3/fetch/fd/fd40c9fe29e8d4dda6e5aebbaaeefb1e.jpeg");
+	background-size: 100%;	
+	background-attachment: fixed
+}
+
+
+
+
+
+.shirma {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 700px;
+	/*backdrop-filter: blur(2px);*/
+	
+}
+.textglava {
+	text-align: center;
+	color: white;
+	z-index: 1;
+	width: 1000px;
+	height: 400px;
+	
+}
+.textglava h1  {
+	text-align: center;
+	color: #3088e3;
+}
+.textglava p  {
+	font-size: 25px;
+	text-align: center;
+	/*color: white;*/
+}
+
+
+
+
+
+
+.count {
+	width: 100%;
+	height: 1500px;
+	background-color: white;
+}
+.text1 {
+	text-align: center;
+
+}
+.bestcount1 {
+	box-sizing:border-box;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+	width: 100%;
+	height: 400px;
+
+}
+
+.Usa {
+	width: 450px;
+	height: 400px;
+	background-image: url("../logo/scale_1200.jfif");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	box-shadow:0px 5px 12px -5px rgba(0, 0, 0, 1);  
+}
+.Usatext {
+	padding-top: 50px;
+	box-sizing:border-box;
+	display: none;
+	width: 450px;
+	height: 400px;
+	background-color: #303841;
+	color: white;
+	text-align: center;
+}
+.Usa:hover .Usatext {
+	color: white;
+	display: block;
+	opacity: 0.9;
+	font-size: 20px;	
+}
+.Usatext a {
+	color: white;
+	text-decoration: none;
+}
+
+
+.Spain {
+	width: 450px;
+	height: 400px;
+	background-image: url("../logo/фото-с-высоты-птичьего-полета-мост-архитектура-6000520.jpeg");
+	background-size: 100%;
+	box-shadow:0px 5px 12px -5px rgba(0, 0, 0, 1);  
+}
+.Spaintext {
+	padding-top: 50px;
+	box-sizing:border-box;
+	display: none;
+	width: 450px;
+	height: 400px;
+	background-color: #303841;
+	color: white;
+	text-align: center;
+}
+.Spain:hover .Spaintext {
+	color: white;
+	display: block;
+	opacity: 0.9;
+	font-size: 20px;	
+}
+.Spaintext a {
+	color: white;
+	text-decoration: none;
+}
+.Japon {
+	width: 450px;
+	height: 400px;
+	background-image: url("../logo/9134f0b5ce68c0bfa550ca4412781edd.jpg");
+	background-size: 100%;
+	box-shadow:0px 5px 12px -5px rgba(0, 0, 0, 1);  
+}
+.Japontext {
+	padding-top: 50px;
+	box-sizing:border-box;
+	display: none;
+	width: 450px;
+	height: 400px;
+	background-color: #303841;
+	color: white;
+	text-align: center;
+}
+.Japon:hover .Japontext {
+	color: white;
+	display: block;
+	opacity: 0.9;
+	font-size: 20px;	
+}
+.Japontext a {
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+.bestcount2 {
+	box-sizing:border-box;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+	width: 100%;
+	height: 400px;
+	
+}
+.Uae {
+	width: 450px;
+	height: 400px;
+	background-image: url("../logo/8c40c24e0e356be42e9ce1ed6c1ff6f9.jpg");
+	background-size: 100%;
+	box-shadow:0px 5px 12px -5px rgba(0, 0, 0, 1);  
+}
+.Uaetext {
+	padding-top: 50px;
+	box-sizing:border-box;
+	display: none;
+	width: 450px;
+	height: 400px;
+	background-color: #303841;
+	color: white;
+	text-align: center;
+}
+.Uae:hover .Uaetext {
+	color: white;
+	display: block;
+	opacity: 0.9;
+	font-size: 20px;	
+}
+.Uaetext a {
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+
+
+.China {
+	width: 450px;
+	height: 400px;
+	background-image: url("../logo/STUnVi3.jpg");
+	background-size: 100%;
+	box-shadow:0px 5px 12px -5px rgba(0, 0, 0, 1);  
+}
+.Chinatext {
+	padding-top: 50px;
+	box-sizing:border-box;
+	display: none;
+	width: 450px;
+	height: 400px;
+	background-color: #303841;
+	color: white;
+	text-align: center;
+}
+.China:hover .Chinatext {
+	color: white;
+	display: block;
+	opacity: 0.9;
+	font-size: 20px;	
+}
+.Chinatext a {
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+.France {
+	width: 450px;
+	height: 400px;
+	background-image: url("../logo/1.jpg");
+	background-size: 100%;
+	box-shadow:0px 5px 12px -5px rgba(0, 0, 0, 1);  
+
+}
+.Francetext {
+	padding-top: 50px;
+	box-sizing:border-box;
+	display: none;
+	width: 450px;
+	height: 400px;
+	background-color: #303841;
+	color: white;
+	text-align: center;
+}
+.France:hover .Francetext {
+	color: white;
+	display: block;
+	opacity: 0.9;
+	font-size: 20px;	
+}
+.Francetext a {
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+.bestcount3 {
+	box-sizing:border-box;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+	width: 100%;
+	height: 450px;
+}
+.Turkey {
+	width: 450px;
+	height: 400px;
+	background-image: url("../logo/side.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	box-shadow:0px 5px 12px -5px rgba(0, 0, 0, 1);  
+}
+.Turkeytext {
+	padding-top: 50px;
+	box-sizing:border-box;
+	display: none;
+	width: 450px;
+	height: 400px;
+	background-color: #303841;
+	color: white;
+	text-align: center;
+}
+.Turkey:hover .Turkeytext {
+	color: white;
+	display: block;
+	opacity: 0.9;
+	font-size: 20px;	
+}
+.Turkeytext a {
+	color: white;
+	text-decoration: none;
+}
+
+
+.Italy {
+	width: 450px;
+	height: 400px;
+	background-image: url("../logo/Rim-panorama-foto_13.jpg");
+	background-size: 100%;
+	box-shadow:0px 5px 12px -5px rgba(0, 0, 0, 1);  
+}
+.Italytext {
+	padding-top: 50px;
+	box-sizing:border-box;
+	display: none;
+	width: 450px;
+	height: 400px;
+	background-color: #303841;
+	color: white;
+	text-align: center;
+}
+.Italy:hover .Italytext {
+	color: white;
+	display: block;
+	opacity: 0.9;
+	font-size: 20px;	
+}
+.Italytext a {
+	color: white;
+	text-decoration: none;
+}
+.Thailand {
+	width: 450px;
+	height: 400px;
+	background-image: url("../logo/rayavadee_17.jpg");
+	background-size: 100%;
+	box-shadow:0px 5px 12px -5px rgba(0, 0, 0, 1);  
+}
+.Thailandtext {
+	padding-top: 50px;
+	box-sizing:border-box;
+	display: none;
+	width: 450px;
+	height: 400px;
+	background-color: #303841;
+	color: white;
+	text-align: center;
+}
+.Thailand:hover .Thailandtext {
+	color: white;
+	display: block;
+	opacity: 0.9;
+	font-size: 20px;	
+}
+.Thailandtext a {
+	color: white;
+	text-decoration: none;
+}
+
+footer {
+	display: flex;
+	width: 100%;
+	height: 300px;
+	background-color: #EAEAE8;
+	
+	
+}
+.footer1 {
+	margin-left: 200px;
+	width: 500px;
+	height: 250px;
+	
+}
+.footer2 {
+	margin-left: 50px;
+	width: 200px;
+	height: 250px;
+	
+}
+.footer3 {
+	margin-left: 10px;
+	width: 400px;
+	height: 250px;
+	padding-top: 30px;
+	
+}
+
+

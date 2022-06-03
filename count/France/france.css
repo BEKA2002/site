@@ -1,0 +1,346 @@
+* {
+	margin: 0px;
+	font-family: Montserrat;
+	scroll-behavior: smooth;
+}
+hr {
+	background-color: #3088E3;
+	width: 100%;
+	height: 1px;
+}
+h2 {
+	color: #3088E3;
+}
+.shapka a {
+	text-decoration: none;
+	color: white;
+	position: relative;	
+}
+.shapka a::before {
+	content: "";
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: white;
+	transition: 0.5s;
+	transform: scaleX(0);	
+} 
+.shapka a:hover:before{
+	width: 100%;
+	transform: scaleX(1);
+
+}
+.shapka {
+	background-color: rgba(0, 0, 0, .3);
+	padding-top: 5px;
+	display: flex;
+	width: 100%;
+	height: 50px;
+	/*justify-content: space-between;*/
+	margin-bottom: 15px;
+	z-index: 10000;
+	position: fixed;
+	
+}
+.logo {
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+}
+.logo img {
+	margin-right:20px;
+	width: 150px;
+	height: 75px;
+}
+.info {
+	margin-left: 415px;
+	align-items: center;
+	width: 300px;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+.ruzkaz {
+	margin-left: 550px;
+	margin-top: 3px;
+	/*width: 40px;
+	height: 40px;*/
+}
+.ruzkaz img {
+	width: 40px;
+	height: 40px;
+}
+
+main {
+	width: 100%;
+	height: 8200px;
+
+	
+}
+
+
+
+/*Фото Испаний */
+
+.photo1 {
+	width: 100%;
+	height: 600px;
+	display: flex;
+	flex-direction: column-reverse;
+	background-image: url(картинки/124515sla7pylffffcjrp9.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	box-shadow: 0px -600px 0px 0px rgba(0, 0, 0, 0.2) inset;
+}
+.photo_text {
+	margin-bottom: 80px;
+	margin-left: 100px;
+	color: white;
+	/*color: #3088e3;*/
+}
+/*текст на картинке*/
+.photo_text h1 {
+	font-size: 50px;
+	font-family: Bebas Neue;
+	font-weight: normal;
+
+
+}
+.photo_text p {
+	font-size: 20px;
+}
+
+.linkbox {
+
+	display: flex;
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	justify-content: center;
+}
+.minilink {
+	padding-left: 25px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+	height: 50px;
+	
+}
+.minilink a {
+	color: black;
+	text-decoration: none;
+}
+.minilink a:hover {
+	color: #3088E3;
+}
+
+
+.obsor {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	height: 7490px;
+	
+
+
+}
+.obsoro {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 1100px;
+	height: 7400px;
+	background-color: white;
+}
+.obsoro h2 {
+	text-align: center;
+}
+
+.obs {
+	width: 1000px;
+	height: 500px;
+
+}
+.obs h2 {
+	text-align: center;
+}
+.obs p {
+	font-size: 17px;
+	text-align: justify;
+}
+span p {
+	border-style: solid;
+	border-width: 1px;
+	color: #3088E3;
+	margin-left: 25px;
+	text-align: justify;
+
+}
+.ticet {
+	width: 1000px;
+	height: 380px;
+	
+}
+.ticet h2 {
+	text-align: center;
+}
+.ticet p {
+	font-size: 17px;
+	text-align: justify;
+}
+.ticet a {
+	color: black;
+	text-decoration: none;
+}
+
+.hotel {
+	width: 1000px;
+	height: 500px;
+	
+	
+}
+.hotel p {
+	font-size: 17px;
+	text-align: justify;
+}
+.hotel a {
+	color: black;
+	text-decoration: none;
+}
+
+.dos {
+	width: 1000px;
+	height: 4700px;
+	
+}
+
+.dos p {
+	font-size: 17px;
+	text-align: justify;
+}
+.dos img {
+	margin-left: 150px;
+}
+
+.visa {
+	width: 1000px;
+	height: 650px;
+
+	
+}
+
+.visa p {
+	font-size: 17px;
+	text-align: justify;
+}
+
+.wifi {
+	width: 1000px;
+	height: 700px;
+}
+
+.wifi p {
+	font-size: 17px;
+	text-align: justify;
+}
+
+
+.Feedback {
+	display: flex;
+	/*justify-content: space-around;*/
+	align-items: center;
+	width: 100%;
+	height: 600px;
+	background: linear-gradient(to right, #292F33 50%, #D9D9D9 50%);
+	border-top-color:  #3088E3;
+	border-top-style: solid;
+}
+.svaz {
+	display: flex;
+	flex-direction: column;
+
+	margin-left: 200px;
+	width: 450px;
+	height: 500px;
+	/*background-color: red;*/
+}
+.nadpis {
+	width: 100%;
+	height: 100px;
+}
+.nadpis h1 {
+	font-family: Roboto;
+	color: white;
+	font-size: 40px;
+}
+.nadpis hr {
+	width: 15%;
+	background-color: #3088E3;
+	height: 5px;
+	border: none;
+}
+.forma {
+	width: 100%;
+	height: 550px;
+}
+.forma input {
+	width: 350px;
+	height: 40px;
+	font-weight: bold;
+	border: none;
+}
+.forma textarea {
+	width: 350px;
+	height: 75px;
+	font-weight: bold;
+	border: none;
+}
+.forma button {
+	width: 150px;
+	height: 50px;
+	font-weight: bold;
+	border: none;
+	background-color:#4b86c4;
+	color: white;
+}
+.forma button:hover {
+	background-color: #3088E3;
+} 
+.forma a  {
+	color: white;
+	text-decoration: none;
+}
+
+
+.mps {
+	margin-left: 25px;
+	width: 700px;
+	height: 500px;
+	display: flex;	
+	background-color: white;
+}
+.mpsinf {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	height: 500px;
+
+}
+#mpsinf1 {
+	width: 100%;
+	height: 500px;
+	padding-top: 15px;
+	padding-left: 15px;
+}
+
+
+.mpsphoto {
+	width: 50%;
+	height: 500px;
+	background-color: white;
+}
